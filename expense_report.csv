@@ -2,3 +2,9 @@ amount,label,spender,friends_involved
 10,pizza,ROBIN,"['ROBIN', 'PIERRE']"
 amount,label,spender,friends_involved
 10,pizouille,SIGL,"['SIGL', 'ROBIN', 'PIERRE']"
+amount,label,spender,friends_involved
+10,hg,SIGL,"['SIGL', 'ROBIN']"
+
+
+amount,label,spender,friends_involved
+10,gf,SIGL,['ROBIN']

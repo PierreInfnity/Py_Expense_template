@@ -61,4 +61,36 @@ def new_expense(*args):
     print("Expense Added !")
     return True
 
+def build_resume():
+    users = makelistuser()
+    res = []
+    money = 0
+    for element in users:
+        my_dict = dict()   
+        element = element + " doit " + str(money) + " a ..."
+        my_dict.update({"name":  element})
+        res.append(my_dict)
+    print(res)
+    return res
 
+debt_payed_question = [
+    {
+        "type":"checkbox",
+        "name":"debt_payed",
+        "message":"If you want to mark a debt as payed , check it ?:",
+        "choices": build_resume() 
+    },
+]
+
+def view_resume():
+    infos = prompt(debt_payed_question)
+    print("Resume Actualised")
+    return True
+
+
+
+
+
+
+
+    

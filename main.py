@@ -1,6 +1,6 @@
 from PyInquirer import prompt
 from examples import custom_style_2
-from expense import expense_questions,new_expense
+from expense import expense_questions,new_expense , view_resume
 from user import add_user
 
 def ask_option():
@@ -18,7 +18,7 @@ def ask_option():
         add_user()
         ask_option()
     if (option['main_options']) == "Show Status":
-        add_user()
+        view_resume()
         ask_option()
 
 def main():
