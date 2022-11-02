@@ -56,7 +56,8 @@ def new_expense(*args):
         writer.writerow(infos)
     
     print(infos)
-    print("it means for each person : "  , int(infos["amount"]) / len(infos["friends_involved"]))
+    if (len(infos["friends_involved"]) != 0):
+        print("it means for each person : "  , int(infos["amount"]) / len(infos["friends_involved"]))
 
     print("Expense Added !")
     return True
