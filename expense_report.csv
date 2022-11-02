@@ -1,0 +1,4 @@
+amount,label,spender,friends_involved
+10,pizza,ROBIN,"['ROBIN', 'PIERRE']"
+amount,label,spender,friends_involved
+10,pizouille,SIGL,"['SIGL', 'ROBIN', 'PIERRE']"
